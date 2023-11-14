@@ -1,0 +1,172 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  .sinal-dolar {
+    position: relative;
+    top: 30px;
+    right: 135px;
+    font-size: 38px;
+  }
+  .area-resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .campo-inserir-valor {
+    width: 270px;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 29px;
+  }
+  .resultado-conversao {
+    background: #4d4d4d;
+    color: white;
+  }
+  .labels {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .dolar-campo {
+    margin-top: -20px !important;
+    padding-left: 25px;
+  }
+  .aparece {
+    display: none;
+  }
+  .area-anos-luz {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .labels-al {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #95d4ff;
+  }
+  .campo-inserir-km {
+    width: 250px;
+    height: 40px;
+    font-size: 28px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+  }
+  .sinal-km{
+    position: relative;
+    font-size: 32px;
+    top: 20px;
+    right: 130px;
+  }
+  .campo-revelar-anosLuz{
+    background: #4d4d4d;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    color:blue;
+  }
+  .anosLuz-convOpcoes > h2{
+    color: white;
+    text-shadow: 2px 2px 2px #95d4ff;
+  }
+  .outros-conversores > h3 {
+    color: white;
+  }
+  .area-temp{
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .temp-result{
+    width: 250px;
+    height: 40px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  .temp-convOpcoes{
+      color: white;
+  }
+  .sinal-temp{
+    position: relative;
+    font-size: 32px;
+    color: black;
+    top: 40px;
+    left: 120px;
+  }
+  .campo-inserir-tempCelsius{
+    padding-right: 40px;
+  }
+  .campo-kelvin-temp, .campo-fahr-temp {
+       text-shadow: 2px 2px 2px black;
+  }
+  .temp{
+    display:none;
+  }
+  .RR{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .RR > a > img {
+    width: 50px;
+    margin: 10px;
+    margin-top: 40px;
+  }
+  
+  .estilo-botao{
+    padding:10px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }
+   
