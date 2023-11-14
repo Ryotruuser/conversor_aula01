@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="">
+    <title>Conversor</title>
+  </head>
+  <body>
+    <header style="color: rgb(34, 76, 127, 0.2)" id="mdby"></header>
+    <div class="container">
+      <h1 class="page-title some">Conversor de moedas</h1>
+      <h1 class="page-title aparece">Conversor de Anos Luz</h1>
+      <h1 class="page-title temp">Conversor de temperatura</h1>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
+        class="page-logo"
+        alt=""
+      />
+    </div>
+
+    <div class="area-resultado">
+      <label for="RR" class="labels">Digite abaixo o valor em dolar</label>
+      <span class="sinal-dolar">$</span>
+      <input
+        class="campo-inserir-valor dolar-campo"
+        oninput="converter(this)"
+      />
+
+      <input
+        class="campo-inserir-valor resultado-conversao"
+        disabled
+        value="R$ 0.00"
+      />
+
+      <input
+        class="campo-inserir-valor resultado-conversao"
+        disabled
+        value="€ 0.00"
+      />
+
+      <input
+        class="campo-inserir-valor resultado-conversao"
+        disabled
+        value="¥ 0.00"
+      />
+
+      <input
+        class="campo-inserir-valor resultado-conversao"
+        disabled
+        value="₿ 0"
+      />
+    </div>
+
+    <div class="outros-conversores some">
+      <h3>Outros de nossos conversores</h3>
+      <button onclick="anosLuz()" class="estilo-botao">
+        Conversor Anos Luz
+      </button>
+      <button onclick="temperatura()" class="estilo-botao">
+        Conversor de Temperatura
+      </button>
+    </div>
+
+    <!-- anos luz aplicacao -->
+
+    <div class="area-anos-luz">
+      <label class="labels-al aparece" for="RR"
+        >Digite abaixo o valor em quilômetros</label
+      >
+      <span class="sinal-km aparece">Km</span>
+      <input
+        class="campo-inserir-km aparece"
+        oninput="anosLuzConverter(this)"
+      />
+
+      <input class="campo-revelar-anosLuz aparece" disabled value="0" />
+    </div>
+    <div class="anosLuz-convOpcoes aparece">
+      <h2>Outros de nossos conversores</h2>
+      <button onclick="conversorMoedas()" class="estilo-botao">
+        Conversor de moedas
+      </button>
+      <button onclick="temperatura()" class="estilo-botao">
+        Conversor de Temperatura
+      </button>
+    </div>
+
+    <!-- conversor temp aplicacao -->
+
+    <div class="area-temp">
+      <label class="label-temp temp">Digite abaixo o valor em Celsus</label>
+      <span class="sinal-temp temp">°C</span>
+      <input
+        class="campo-inserir-tempCelsius temp-result temp"
+        oninput="converterTemp(this)"
+      />
+
+      <input class="campo-fahr-temp temp-result temp" disabled value="0 °F" />
+      <input class="campo-kelvin-temp temp-result temp" disabled value="0 °K" />
+    </div>
+    <div class="temp-convOpcoes temp">
+      <h3>Outros de nossos conversores</h3>
+      <button onclick="conversorMoedas()" class="estilo-botao">
+        Conversor de moedas
+      </button>
+      <button onclick="anosLuz()" class="estilo-botao">
+        Conversor de Anos Luz
+      </button>
+    </div>
+
+    <!-- temperature image from Freepik-->
+
+    <footer class="RR">
+      <!-- icones by freepik-->
+
+      <a href="https://github.com/Ryotruuser" target="”_blank”">
+        <img
+          class="social"
+          src="https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png"
+          alt="CC BY 4.0 DEED
+Attribution 4.0 International"
+        />
+      </a>
+      <a href="https://www.linkedin.com/in/ryotruuser/" target="”_blank”">
+        <img
+          class="social"
+          src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png"
+        />
+      </a>
+    </footer>
+  </body>
+</html>
